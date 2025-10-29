@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Natali Boeva — Portfolio
 
-## Project info
+[![Netlify Status](https://api.netlify.com/api/v1/badges/none/deploy-status)](#)
 
-**URL**: https://lovable.dev/projects/50e230f8-fa97-4ddb-b586-4e16b67c6beb
+**Live Demo:** [https://portfolio-natali-boeva.netlify.app/](https://portfolio-natali-boeva.netlify.app/)
 
-## How can I edit this code?
+A modern, responsive developer portfolio showcasing education, verified certificates, and projects.  
+Built with **React**, **Tailwind CSS**, and deployed on **Netlify**.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/50e230f8-fa97-4ddb-b586-4e16b67c6beb) and start prompting.
+- Education & Certificates section with verified badges  
+- Animated gradient and particle backgrounds  
+- Image-first certificate cards with graceful fallbacks  
+- Fully responsive layout (mobile → desktop)  
+- Fast static build ready for CDN  
+- SEO-friendly with clean URLs  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend:** React (Vite or CRA)
+- **Styling:** Tailwind CSS
+- **Deployment:** Netlify (free global CDN + HTTPS)
+- **Hosting:** https://portfolio-natali-boeva.netlify.app/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📦 Getting Started (Local Development)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> Requires Node 18+ and npm / yarn / pnpm.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1) Clone your repository
+git clone <your-repo-url> portfolio
+cd portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2) Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3) Start the local dev server
 npm run dev
-```
+# usually runs at http://localhost:5173
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/50e230f8-fa97-4ddb-b586-4e16b67c6beb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 4) Build for production
+npm run build
+# outputs to /dist (Vite) or /build (CRA)
