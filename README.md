@@ -1,7 +1,5 @@
 # Natali Boeva — Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/none/deploy-status)](#)
-
 **Live Demo:** [https://portfolio-natali-boeva.netlify.app/](https://portfolio-natali-boeva.netlify.app/)
 
 A modern, responsive developer portfolio showcasing education, verified certificates, and projects.  
